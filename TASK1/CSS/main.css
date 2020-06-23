@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(249, 253, 253);
+}
+.wrap{
+    font-family: sans-serif;
+    background-color: rgb(211, 211, 211);
+    margin: auto;
+    width: 90%;
+    /* height: 100vh; */
+}
+.images{
+    height: 100%;
+   
+}
+.day{
+    font-size: 11px;
+    color: #999;
+}
+.time{
+    font-size: 12px;
+}
+.round-images{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+ .purple-card{
+     background-color: rgb(113, 81, 204);
+     color: white !important;
+ }
+ .product{
+     color:  rgb(113, 55, 221);
+     font-weight: bolder;
+     font-size: 12px;
+ } 
+ .footer{
+     color: rgb(68, 196, 153);
+     font-weight: bolder;
+     font-size: 12px;
+ }
+ .card-1-0{
+     color: rgb(113, 55, 221) ;
+     font-weight: bolder;
+ }
+ /* for buttons  */
+ .danger{
+     width: 95% !important;
+     background-color:  rgb(113, 55, 221) ;
+     color: white;
+     box-shadow: none !important;
+     border: none !important;
+ }
+ .dark{
+    width: 100% !important;
+    background-color:transparent;
+    color: black;
+    
+  
+ }
+ .success{
+     width: 100% !important;
+     background-color:  rgb(113, 55, 221) ;
+     color: white;
+     box-shadow: none !important;
+     border: none !important;
+    }
+    .success:hover , .danger:hover{
+        background-color:  rgb(113, 55, 221) ;
+        box-shadow: none !important;
+        border: none !important;
+    }
+    .dark:hover{
+        background-color: transparent !important;
+        color: black;
+        /* box-shadow: none !important;
+        border: black 1px !important; */
+    }
+    .success:active , .danger:active{
+        background-color:  rgb(113, 55, 221) !important;
+        border: none !important;
+        box-shadow: none !important;
+        color: white !important;
+    }
+    .dark:active{
+        background-color: white !important;
+        color: black;
+        box-shadow: none !important;
+        /* border: none !important; */
+       
+    }
+    .btn{
+        font-size: 12px;
+    }
+   .last-imagewrap{
+       position: relative;
+       height: 200px;
+   }
+    .image-box{
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .last-image{
+        /* position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0; */
+        height: 100%;
+        width: 100%;
+      
+    }
+    .color-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:  black;
+    width: 100%;
+    opacity: 0.65;
+    color: white !important;
+    height: 200px;
+    }
+    hr{
+        position: absolute;
+        color: white !important;
+        top: 70;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+    .last-time{
+        color: white;
+        font-size: 12px;
+    }
+    .last-day{
+        font-size: 11px;  
+    }
+    .round-imageslast{
+        width: 35px;
+         height: 35px;
+        border-radius: 50%; 
+    
+    }
+ 
